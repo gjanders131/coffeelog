@@ -1,11 +1,15 @@
 import React from "react";
+import Layout from "../components/Layout";
 import LogForm from "../components/LogForm";
 
-export default function Dashboard() {
+export interface DashboardProps {}
+
+const Dashboard: React.FC<DashboardProps> = () => {
   return (
-    <div>
-      <div>This is a dashboard</div>
+    <Layout>
       <LogForm />
-    </div>
+    </Layout>
   );
-}
+};
+
+export default Dashboard;
