@@ -31,6 +31,7 @@ const StyledNav = styled.nav`
   background-color: tan;
   .nav-container {
     width: 80%;
+    max-width: 960px;
     margin: 0rem auto;
     padding: 0.5rem 0rem;
     display: flex;
